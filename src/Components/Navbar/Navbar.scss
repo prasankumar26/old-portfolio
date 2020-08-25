@@ -1,10 +1,4 @@
-$colorOne: #F2F3AE;
-$colorTwo: #EDD382;
-$colorThree: #FC9E4F;
-$colorFour: #F4442E;
-$colorFive: #020122;
-$myFont: Roboto;
-
+@import "../../Common.scss";
 
 .navbar > a{
   list-style-type: none !important;
@@ -19,7 +13,8 @@ $myFont: Roboto;
 }
 
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    // background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+   background: $colorFive;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -28,13 +23,19 @@ $myFont: Roboto;
   }
   
   .navbar-logo  {
-    color: #fff;
+    color: $colorOne !important;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar-logo:hover{
+    color: $colorTwo !important;
+    transition: 0.5s ease all;
   }
 
  
@@ -62,16 +63,16 @@ $myFont: Roboto;
   }
   
   .nav-links {
-    color: white;
+    color: $colorOne !important;
     text-decoration: none !important;
     padding: 0.5rem 1rem;
   }
   
   .nav-links:hover {
-    background-color: $colorTwo;
+    background-color: $colorTwo !important;
     border-radius: 4px;
     transition: all 0.2s ease-out;
-    color: $colorFive;
+    color: $colorFive !important;
   }
   
   .fa-bars {
@@ -104,7 +105,7 @@ $myFont: Roboto;
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: $colorFive !important;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -121,7 +122,7 @@ $myFont: Roboto;
     }
   
     .nav-links:hover {
-      background-color: $colorTwo;
+      background-color: $colorTwo !important;
       border-radius: 0;
       color: #000;
       // width:fit-content;
@@ -156,15 +157,15 @@ $myFont: Roboto;
       margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
-      background: #1888ff;
+      background: $colorFive !important;
       text-decoration: none;
-      color: #fff;
+      color: $colorOne !important;
       font-size: 1.5rem;
     }
   
     .nav-links-mobile:hover {
       background: #fff;
-      color: #1888ff;
+      color: $colorTwo !important;
       transition: 250ms;
     }
   
@@ -172,4 +173,15 @@ $myFont: Roboto;
       display: none;
     }
   }
+  
+
+  @media screen and (max-width: 375px) { 
+    .navbar-logo {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+  }
+
+
   

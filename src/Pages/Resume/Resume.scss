@@ -1,0 +1,157 @@
+@import "../../Common.scss";
+
+.home-parent{
+  overflow-x: hidden;
+  background-color: $colorFive;
+  
+  .banner-heading{
+    color: $colorThree;
+    padding: 5px;
+  }
+}
+
+.resume {
+    background-image: url('../../images/prasan-2.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    border-radius: 0% 50% 50% 0%;
+    opacity: 0.6;
+
+    display: flex;
+    height: 87vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;   
+    font-family: $myFont;                             
+  }
+
+
+
+  .resume-one{
+    background: #fff;
+     padding: 20px;
+     box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+     h2{
+         color: $colorThree;
+         font-weight: 600;
+         border-bottom: 3px solid $colorThree;
+         width: fit-content; 
+         font-family: $myFont;
+         text-transform: uppercase;
+       }
+     p{
+       font-family: $myFont;
+     }
+  }
+
+ 
+
+
+   .resume-two{
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+    h3{
+      color: $colorThree;
+      font-weight: 600;
+      border-bottom: 3px solid $colorThree;
+      width: fit-content; 
+      font-family: $myFont;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    li{
+      margin-top: 12px;
+    }
+   }
+
+
+   .resume-two-right{
+     color: #fff;
+    background:  $colorFive;
+    padding: 20px;
+    box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+    h3{
+      color: $colorThree;
+      font-weight: 600;
+      border-bottom: 3px solid $colorThree;
+      width: fit-content; 
+      font-family: $myFont;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    p{
+      line-height: 1.7em;
+      font-weight: 400;
+      font-family: $myFont;
+    }
+    li{
+      line-height: 2em;
+    }
+   }
+
+
+
+
+
+
+   .resume-three{
+    background:#fff;
+    padding: 20px;
+    box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+    h3{
+      color: $colorThree;
+      font-weight: 600;
+      border-bottom: 3px solid $colorThree;
+      width: fit-content; 
+      font-family: $myFont;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    li{
+      line-height: 2em;
+      font-weight: 400;
+      font-family: $myFont;
+    }
+   }
+
+
+
+
+
+  // .resume-one{
+  //   background: #fff;
+  //   padding: 20px;
+  //   box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+  //   h3{
+  //     color: $colorThree;
+  //     font-weight: 600;
+  //     border-bottom: 3px solid $colorThree;
+  //     width: fit-content; 
+  //     font-family: $myFont;
+  //   }
+  // }
+
+
+  // .resume-two{
+  //   background: #fff;
+  //   padding: 20px;
+  //   box-shadow: 2px 6px 6px 2px rgb(224, 216, 224);
+  //   h3{
+  //     color: $colorThree;
+  //     font-weight: 600;
+  //     border-bottom: 3px solid $colorThree;
+  //     width: fit-content; 
+  //     font-family: $myFont;
+  //   }
+  //   ul{
+  //     li{
+  //       font-weight: bold;
+  //       margin-top: 10px;
+  //       font-family: $myFont;
+  //     }
+  //   }
+  // }

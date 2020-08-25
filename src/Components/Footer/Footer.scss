@@ -1,0 +1,32 @@
+@import '../../Common.scss';
+
+footer{
+    background-color: $colorFive;
+    padding: 30px 0px;
+    .footer-one{
+        h5{
+            font-size: 1.3em;
+            font-weight: bold;
+            color: $colorTwo;
+            border-bottom: 3px solid $colorThree;
+            width: fit-content;
+            margin: 0px auto;
+        }
+        ul{
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none !important;
+                    color: $colorOne;
+                    line-height: 2em;
+                    font-weight: 500;
+                    font-size: 1.2em;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: $colorThree;
+                    }
+                }
+            }
+        }
+    }
+}

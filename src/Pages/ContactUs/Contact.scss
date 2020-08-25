@@ -1,0 +1,125 @@
+.contactus {
+    background-image: url('../../images/img-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+
+
+  //form
+
+  .container{
+    width:90%;
+    margin: 100px auto;
+    box-shadow: 1px 1px 4px 1px lightgrey;
+    background-color: lightseagreen;
+   
+  }
+  
+  .containers form{
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .containers form label{
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  .containers input,
+  .containers textarea{
+    width: 100%;
+    margin:0 auto;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px 1px rgb(58, 57, 57);
+  }
+  
+  .containers input:focus,
+  .containers textarea:focus{
+   
+    box-shadow: 1px 1px 4px 1px rgb(49, 170, 240);
+  }
+  
+  .singleItem{
+    margin:10px 0;
+  }
+  
+  .btn{
+    width:100%;
+    text-align: center;
+  }
+  
+  .btn button{
+    // width: 150px;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    padding: 5px 10px;
+    border:1px solid transparent;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    margin-top: 5px;
+    background-color: rgb(5, 255, 222);
+    color: #fff;
+  }
+  
+  .btn button:hover{
+    border: 1px solid #fefefe;
+    background-color: rgb(199, 201, 202);
+    cursor: pointer;
+   
+  }
+  
+   .msg{
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+   width: 340px;
+  padding:3px;
+    font-size:16px;
+    border-radius: 5px;
+    font-weight: bold;
+   display: none;
+    color: rgb(5, 110, 5);
+    background-color: white;
+  }
+  
+  .msgAppear{
+    display: block;
+  }
+  
+  
+  @media screen and (min-width:664px){
+    .containers{
+      width:60%;
+      margin: 100px auto;
+      box-shadow: 1px 1px 4px 1px lightgrey;
+      background-color: lightseagreen;
+     
+    }
+  }
+  
+  @media screen and (min-width:986px){
+    .containers{
+      width:40%;
+      margin: 100px auto;
+      box-shadow: 1px 1px 4px 1px lightgrey;
+      background-color: lightseagreen;
+     
+    }
+  }
+  

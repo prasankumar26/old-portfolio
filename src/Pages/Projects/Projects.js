@@ -1,11 +1,20 @@
 import React from 'react'
-import '../../App.scss';
+import './Project.scss';
 
 function Projects() {
   return (
+    <>
     <div>
-      <h1>Projects</h1>
+      <h1 className="projects">Projects</h1>
     </div>
+
+     <div className="container">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum a, amet, vel cum quibusdam illo perspiciatis officia numquam ea dolores ipsum aliquam, ipsa dicta. Veritatis quisquam cumque iste sunt.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum a, amet, vel cum quibusdam illo perspiciatis officia numquam ea dolores ipsum aliquam, ipsa dicta. Veritatis quisquam cumque iste sunt.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum a, amet, vel cum quibusdam illo perspiciatis officia numquam ea dolores ipsum aliquam, ipsa dicta. Veritatis quisquam cumque iste sunt.</p>
+     </div>
+
+     </>
   )
 }
 

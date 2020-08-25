@@ -9,6 +9,7 @@ import Projects from './Pages/Projects/Projects';
 import ContactUs from './Pages/ContactUs/ContactUs';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Footer from './Components/Footer/Footer';
 // home
 // about
 // resume
@@ -25,8 +26,8 @@ function App() {
         <Route path='/Resume' component={Resume} />
         <Route path='/Projects' component={Projects} />
         <Route path='/ContactUs' component={ContactUs} />
-       
-      </Switch>
+         </Switch>
+         <Footer/>
     </Router>
   );
 }
