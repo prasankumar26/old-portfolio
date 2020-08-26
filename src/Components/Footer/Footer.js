@@ -7,11 +7,12 @@ function Footer() {
         <>
             <footer className="mx-auto mt-5">
           <div className="container-fluid">
+              <div className="d-flex justify-content-center align-content-center align-items-center">
           <div className="row">
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12 col-sm-6 d-flex justify-content-center align-content-center align-items-center">
                 <div className="footer-one">
                     <h5>WEBSITE DESIGN</h5>
-                    <ul >
+                    <ul>
                         <li> <Link to="/">Home</Link> </li>
                         <li> <Link to="/About">About</Link> </li>
                         <li> <Link to="/Resume">Resume</Link> </li>
@@ -20,7 +21,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12 col-sm-6 d-flex justify-content-center align-content-center align-items-center">
                <div className="footer-one">
                <h5>CLONE PROJECTS</h5>
                     <ul>
@@ -35,7 +36,7 @@ function Footer() {
                 </div>
 
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12 col-sm-6 d-flex justify-content-center align-content-center align-items-center">
                <div className="footer-one">
                <h5>CLONE PROJECTS</h5>
                     <ul>
@@ -48,7 +49,7 @@ function Footer() {
                 </div>
 
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12 col-sm-6 d-flex justify-content-center align-content-center align-items-center">
                <div className="footer-one">
                <h5>SOCIAL MEDIA</h5>
                     <ul>
@@ -77,6 +78,7 @@ function Footer() {
 
             </div>    
           </div>  
+          </div>
           </footer>
 
 

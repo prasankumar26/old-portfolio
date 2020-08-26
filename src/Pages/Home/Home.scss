@@ -1,5 +1,7 @@
 @import "../../Common.scss";
 
+
+
 .home-parent{
   overflow-x: hidden;
   background-color: $colorFive;
@@ -17,7 +19,7 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 0% 50% 50% 0%;
     opacity: 0.6;
 
     display: flex;
@@ -46,7 +48,6 @@
    }
    
  }
-
 
 
 
@@ -131,3 +132,16 @@
   }
 }
 
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+   .home{
+    height: 50vh;
+    width: auto;
+   }
+}
