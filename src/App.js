@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Resume from './Pages/Resume/Resume';
 import Projects from './Pages/Projects/Projects';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import Error from './Error';
+import {Helmet} from 'react-helmet'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Footer from './Components/Footer/Footer';
@@ -18,9 +20,21 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
+    <>
+   <Helmet>
+      <meta charset="UTF-8" />
+      <title>Prasan Portfolio</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+      <meta name="description" content="Nested component" />
+      <meta property="og:type" content="article" />
+      <meta name="author" content="John Doe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     </Helmet>
     <Router>
+    
       <Navbar />
       <Switch>
+       
         <Route path='/' exact component={Home} />
         <Route path='/About' component={About} />
         <Route path='/Resume' component={Resume} />
@@ -30,6 +44,7 @@ function App() {
          </Switch>
          <Footer/>
     </Router>
+    </>
   );
 }
 

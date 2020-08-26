@@ -7,7 +7,12 @@ import Skills from './Skills';
 function Home() {
   return (
     <>
+    
+
     <div className="home-parent container-fluid">
+
+   
+
      <div className="row">
        <div className="col-md-6">
        <h1 className="home"></h1>

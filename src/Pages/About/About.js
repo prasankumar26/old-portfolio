@@ -2,11 +2,29 @@ import React from 'react'
 import './About.scss';
 import SocialMedia from '../../Socialmedia/SocialMedia';
 import AboutData from './AboutData';
+import {Helmet} from 'react-helmet'
 
 
 function About() {
   return (
     <>
+
+<Helmet>
+   {/* html attributes */}
+   <html lang="en" amp />
+ 
+      <meta charset="UTF-8" />
+      <title>Prasan Portfolio</title>
+      <meta keywords="hello" />
+      <link rel="canonical" href="http://mysite.com/example" />
+      <meta name="description" content="Nested component" />
+      <meta property="og:type" content="article" />
+      <meta name="author" content="John Doe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     </Helmet>
+
+
     <div>
       <h1 className="about">About Us</h1>
     </div>
