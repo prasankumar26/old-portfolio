@@ -1,6 +1,7 @@
 import React from 'react'
 import './Resume.scss';
-import {Link} from 'react-router-dom'
+import SocialMedia from '../../Socialmedia/SocialMedia';
+
 
 function Resume() {
   return (
@@ -13,19 +14,24 @@ function Resume() {
        <div className="col-md-6 text-white my-auto">
          <h2 className="banner-heading">I am Prasan Kumar</h2>
          <h2>Front End Developer</h2>
-       <Link to="/">  <h2>viratprasan14@gmail.com</h2> </Link>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur nemo totam amet. Itaque animi doloremque aspernatur impedit enim dignissimos! Accusantium officiis officia natus eaque in!</p>
+       <h4>viratprasan14@gmail.com</h4>
+         <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
          <div className="banner-btn">
-          <Link to="/about"> <button className="btn">Download Resume</button> </Link> 
+         
+             <button className="btn">Download Resume</button> 
+          
           </div>
        </div>
      </div>
-    </div>
+    </div> 
 
 
 
       
       <div className="container my-5">
+
+      <SocialMedia/>
+      
         <div className="row">
           <div className="resume-one">
             <h2>SUMMERY</h2>
